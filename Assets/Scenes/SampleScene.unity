@@ -133,11 +133,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1223984958112238646, guid: 1712a0b6f441d424eb86b6e332a88f4d, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1223984958811788621, guid: 1712a0b6f441d424eb86b6e332a88f4d, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1223984959004712814, guid: 1712a0b6f441d424eb86b6e332a88f4d, type: 3}
       propertyPath: m_Name
@@ -1120,6 +1120,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a9c382fc2e44ab43a24f0e50d59d6ad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  loadingCanvasControllerPrefab: {fileID: 6584316387962421199, guid: 4c5ed6d282bd24f429ff463afb406c14, type: 3}
   lobbyPanels:
   - {fileID: 1915966316}
   - {fileID: 1473329895}
